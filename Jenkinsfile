@@ -11,6 +11,7 @@ pipeline{
         stage('Build user-service Microservice') {
             steps {
                 dir('user-service'){
+                    sh 'chmod +x mvnw'
                     sh './mvnw clean package'
                 }
             }
