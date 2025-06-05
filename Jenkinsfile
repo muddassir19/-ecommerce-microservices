@@ -1,7 +1,7 @@
 pipeline{
     agent any
     environment {
-        JAVA_HOME = '/usr/lib/jvm/java-21-amazon-corretto.x86_64'
+        JAVA_HOME = '/usr/lib/jvm/java-17-amazon-corretto.x86_64'
         PATH = "${env.JAVA_HOME}/bin:${env.PATH}"
     }
 
@@ -17,7 +17,7 @@ pipeline{
                 dir('user-service'){
                     sh 'chmod +x mvnw'
                     sh 'java -version'
-                    sh './mvnw clean package'
+                    sh './mvn clean package'
                 }
             }
         }
