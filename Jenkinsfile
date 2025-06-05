@@ -17,7 +17,7 @@ pipeline{
                 dir('user-service'){
                     sh 'chmod +x mvnw'
                     sh 'java -version'
-                    sh './mvn clean package'
+                    sh './mvnw clean package'
                 }
             }
         }
