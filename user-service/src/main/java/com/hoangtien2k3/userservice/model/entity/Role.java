@@ -1,5 +1,5 @@
 package com.hoangtien2k3.userservice.model.entity;
-
+import jakarta.persistence.Column;
 import lombok.*;
 import lombok.experimental.Accessors;
 import org.hibernate.annotations.NaturalId;

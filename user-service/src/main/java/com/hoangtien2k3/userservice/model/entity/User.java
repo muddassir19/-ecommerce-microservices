@@ -3,7 +3,7 @@ package com.hoangtien2k3.userservice.model.entity;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.*;
 import org.hibernate.annotations.NaturalId;
-
+import jakarta.persistence.Column;
 import javax.persistence.*;
 import javax.validation.constraints.*;
 import java.util.HashSet;
