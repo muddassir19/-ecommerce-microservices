@@ -11,7 +11,7 @@
     <groupId>com.hoangtien2k3</groupId>
     <artifactId>ecommerce-microservices</artifactId>
     <version>${revision}</version>
-    <revision>1.0-SNAPSHOT</revision>
+    <!-- <revision>1.0-SNAPSHOT</revision> -->
     <packaging>pom</packaging>
     <name>ecommerce-microservices</name>
 
